@@ -1,0 +1,12 @@
+# репо проекта — свои git, рядом (Д.ДОК.1)
+/vic3_mods/
+/Economic-and-Financial-Ledgerdemain-Mod/
+/vic3_mods_out/
+/vic3_tools/
+# черновики, данные моста, локальное
+/_tmp_analysis/
+/_bridge/
+/runner-setup/
+/.claude/settings.local.json
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
