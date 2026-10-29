@@ -12,9 +12,9 @@ tags: [документация]
 | вопрос | где |
 | --- | --- |
 | что сейчас и что делаем | [[план]] |
-| всё по этапу | `этапы/` — [[этапы/README|файл папки]]; пока этапы форка — `Economic-and-Financial-Ledgerdemain-Mod/этапы/`, пачки — `vic3_mods/План проекта.md` |
-| почему так (сквозное) | `решения/` — [[решения/README|файл папки]]; решения форка — пока `Economic-and-Financial-Ledgerdemain-Mod/решения.md` |
-| как вести документы | [[methodology/README|методика]] |
+| всё по этапу | `этапы/` — [[этапы/README\|файл папки]]; пока этапы форка — `Economic-and-Financial-Ledgerdemain-Mod/этапы/`, пачки — `vic3_mods/План проекта.md` |
+| почему так (сквозное) | `решения/` — [[решения/README\|файл папки]]; решения форка — пока `Economic-and-Financial-Ledgerdemain-Mod/решения.md` |
+| как вести документы | [[methodology/README\|методика]] |
 | форк: понятия, код, история | `Economic-and-Financial-Ledgerdemain-Mod/` — пока в корне форка (`понятия/`, `docs/`, `история/`) |
 | ваниль и чужие моды | пока `Economic-and-Financial-Ledgerdemain-Mod/ваниль/` и `vic3_mods/сводки по модам/`; будет — `vic3_mods_out/docs/` ([[Д.ДОК.5 — документация внешних источников\|Д.ДОК.5]]) |
 | инструменты | `vic3_tools/README.md`, `vic3_tools/docs/usage.md` |
