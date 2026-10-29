@@ -17,9 +17,9 @@ tags: [документация]
 | почему так — в форке | `Economic-and-Financial-Ledgerdemain-Mod/docs/решения/` |
 | как вести документы | [[methodology/README\|методика]] |
 | форк: понятия, код, история | `Economic-and-Financial-Ledgerdemain-Mod/docs/` — вход `docs/README.md` форка |
-| пачка: справочник набора, история | `vic3_mods/docs/`, вход в репо — `vic3_mods/README.md` |
+| пачка: справочник набора, история | `vic3_mods/docs/`, вход в репо — [[vic3_mods/README]] |
 | ваниль и чужие моды: термины, сводки, графы | `vic3_mods_out/docs/` (репо `vic3_out_docs`) — вход его `README.md` |
-| инструменты | `vic3_tools/README.md`, `vic3_tools/docs/usage.md` |
+| инструменты | `vic3_tools/README.md`, [[vic3_tools/docs/usage]] |
 
 Раскладка узла: `план.md`, `этапы/`, `решения/`, `methodology/`; появятся `понятия/` (сквозные: пачка, компач,
 плейсет, мост, ВМ, прогон, ночь), `devices/` (ПК, ВМ, ComfyUI, Steam), `уроки/`, `история/`.

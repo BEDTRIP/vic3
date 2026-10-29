@@ -1,0 +1,10 @@
+# Проверка документов узла и всего хранилища: v3 docs check (из узла — все репо; из репо — его документы,
+# ссылки разрешаются по всему хранилищу). Правила — методика «Проверка», раскладка — здесь и у каждого репо.
+name = "vic3"
+project = "vic3"
+members = ["vic3_mods", "Economic-and-Financial-Ledgerdemain-Mod", "vic3_tools", "vic3_mods_out/docs"]
+# не в хранилище: снимок источников (его документы — член vic3_mods_out/docs), черновики и данные моста
+vault_skip = ["vic3_mods_out", "_tmp_analysis", "_bridge"]
+docs = ["docs/**"]
+method = ["docs/methodology/**"]
+history = ["docs/история/**"]
