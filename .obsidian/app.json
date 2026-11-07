@@ -1,1 +1,6 @@
-{}
+{
+  "userIgnoreFilters": [
+    "vic3_mods_out/",
+    "_bridge/"
+  ]
+}

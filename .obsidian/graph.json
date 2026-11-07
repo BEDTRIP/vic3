@@ -1,28 +1,28 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-[audience:agent]",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Economic-and-Financial-Ledgerdemain-Mod/этапы  ",
+      "query": "path:docs/этапы",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:Economic-and-Financial-Ledgerdemain-Mod/понятия  ",
+      "query": "path:Economic-and-Financial-Ledgerdemain-Mod/docs/понятия",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:Economic-and-Financial-Ledgerdemain-Mod/история  ",
+      "query": "path:Economic-and-Financial-Ledgerdemain-Mod/docs/история",
       "color": {
         "a": 1,
         "rgb": 11657298
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.11660891579457246,
+  "scale": 0.030182895067324158,
   "close": false
 }
