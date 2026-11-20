@@ -7,8 +7,8 @@ kind: task
 component: DOCS
 epic: "[[Документация]]"
 date: 2026-11-20
-status: todo
 touches: [".claude/skills/"]
+status: wontdo
 ---
 # DOCS-4 — Ночная работа по методу — навыки night-run и night-until
 
@@ -24,3 +24,4 @@ touches: [".claude/skills/"]
 ## Ход
 
 - 20.11 — заведена при переводе на задачи ([[DOCS-1 — Перевод документов на метод ca31a1d|DOCS-1]]).
+- 20.11 — не делаем: пользователь — навыки `night-run` и `night-until` = старые версии `/loop` и не особо нужны; удалены из `.claude/skills/` узла. Ночная работа, если понадобится, — по методу ([[Ночная работа (multi-agent night run)]]), `/loop`.

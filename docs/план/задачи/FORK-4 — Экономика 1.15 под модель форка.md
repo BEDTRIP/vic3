@@ -22,6 +22,8 @@ touches: ["Economic-and-Financial-Ledgerdemain-Mod/"]
 
 Из отчёта [«1.13 → 1.15»](https://claude.ai/artifact/HspWQ1dxZhCURL6f27qC3J) — [[Этап ОБН. Обновление источников — до задач#Отчёт «1.13 → 1.15» и задачи из него (шаг 4, 12.11)|снимок этапа, «Отчёт „1.13 → 1.15“ и задачи из него»]].
 
+**1.15.2 ([[SRC-6 — Снимок источников и граф на 1.15.2|SRC-6]]):** defines `NAI` — `AUTONOMOUS_INVESTMENT_COMPANY_TARGET_BUILDING_TYPE_CONSTRUCTION_FACTOR` 5 → 20 (выбор зданий автономных инвестиций компаний), новые `PRODUCTION_METHOD_EMPLOYMENT_CHANGE_NO_AVAILABLE_LABOR_MULT`, `…_ABUNDANT_LABOR_FRACTION`, `PRODUCTION_METHOD_SCORING_OVERRIDE_FACTOR`; `NEconomy` в 1.15.2 не менялся.
+
 ## Проверка
 
 - `v3 lint`, `v3 conflicts` и прогон форка на 1.15 — без ошибок по затронутым записям
@@ -29,3 +31,4 @@ touches: ["Economic-and-Financial-Ledgerdemain-Mod/"]
 ## Ход
 
 - 20.11 — заведена при переводе на задачи ([[DOCS-1 — Перевод документов на метод ca31a1d|DOCS-1]]).
+- 20.11 — уточнена по снимку 1.15.2 ([[SRC-6 — Снимок источников и граф на 1.15.2|SRC-6]]).
