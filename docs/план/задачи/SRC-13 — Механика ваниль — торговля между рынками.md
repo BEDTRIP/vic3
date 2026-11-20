@@ -5,7 +5,7 @@ project: vic3
 tags: [источники]
 kind: task
 component: SRC
-epic: "[[Этап Г. Граф источников целиком]]"
+epic: "[[Этап Г. Граф ваниль]]"
 date: 2026-11-20
 status: todo
 touches: ["vic3_mods_out/docs/"]
