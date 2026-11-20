@@ -1,36 +1,36 @@
 ---
 type: reference
-description: "Папка решений узла: сквозные решения проекта vic3 — файл на решение, таблица по шапкам"
+description: "Папка ADR узла: сквозные решения проекта vic3 — файл на решение, таблица по шапкам"
 project: vic3
 tags: [решения]
 ---
 # Решения
 
-Сквозные решения проекта — те, что касаются нескольких репо или узла; решения одного репо — в его `docs/решения/`
-([[Д.ДОК.3 — документ в репо кода или в узле|Д.ДОК.3]]). Файл — `Д.<этап>.<n> — <тема>.md`, заголовок — вопрос; как
-вести — [[methodology/Решение|методика]]. Заменённые — в `история/решения/`.
+Сквозные ADR проекта — те, что касаются нескольких репо или узла; ADR одного репо — в его `docs/решения/`
+([[ADR-0301 — документ в репо кода или в узле|ADR-0301]]). Файл — `ADR-NNNN — <тема>.md`, номер сквозной по всем репо,
+прежний (`Д.ДОК.12`) — в `aliases`; заголовок — вопрос; как вести — [[Решение (ADR)]]. Заменённые — в
+`история/решения/`.
 
 ```base
 filters:
   and:
     - file.inFolder(this.file.folder)
-    - note.type == "decision"
-properties:
-  file.name:
-    displayName: Решение
-  note.status:
-    displayName: Статус
-  note.date:
-    displayName: Когда
+    - type == "adr"
 views:
   - type: table
-    name: Решения
+    name: ADR
     order:
       - file.name
+      - aliases
       - status
-      - date
-      - by
+      - description
     sort:
-      - property: date
+      - property: file.name
         direction: DESC
+    rowHeight: tall
+    columnSize:
+      file.name: 230
+      note.aliases: 90
+      note.status: 80
+      note.description: 300
 ```

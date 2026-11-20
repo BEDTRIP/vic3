@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import os,sys;p=os.path.join(os.environ.get('CLAUDE_PROJECT_DIR','.'),'docs','methodology','README.md');sys.stdout.buffer.write(b'Work by the documentation method of this project (map below, docs/methodology/README.md); before an issue, a bug, an ADR, a lesson - open its note.\\n\\n'+open(p,'rb').read())\""
+          }
+        ]
+      }
+    ]
+  }
+}

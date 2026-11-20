@@ -8,3 +8,5 @@ vault_skip = ["vic3_mods_out", "_tmp_analysis", "_bridge"]
 docs = ["docs/**"]
 method = ["docs/methodology/**"]
 history = ["docs/история/**"]
+# области задач (ключи FORK-12 …) — по репо; файл папки docs/план/задачи/README.md
+components = ["FORK", "MODS", "TOOLS", "SRC", "DOCS"]
