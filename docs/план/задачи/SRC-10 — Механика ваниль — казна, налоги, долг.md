@@ -7,7 +7,9 @@ kind: task
 component: SRC
 epic: "[[Этап Г. Граф ваниль]]"
 date: 2026-11-20
-status: todo
+status: in-progress
+assignee: "ночь DOCS-5, /loop, ПК (C:\ProjectData\vic3)"
+claimed: 2026-11-21 05:09
 touches: ["vic3_mods_out/docs/"]
 ---
 # SRC-10 — Механика ваниль — казна, налоги, долг
