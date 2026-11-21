@@ -8,7 +8,9 @@ component: SRC
 epic: "[[Этап ОБН. Обновление источников]]"
 date: 2026-11-20
 depends: ["[[SRC-1 — Дамп движка 1.15 и справочник движка]]"]
-status: todo
+status: in-progress
+assignee: "ночь DOCS-5, /loop, ПК (C:\ProjectData\vic3)"
+claimed: 2026-11-21 04:15
 touches: ["vic3_mods_out/docs/vanilla/", "ВМ-песочница"]
 ---
 # SRC-2 — Прогон пилота «стройка» на ваниль 1.15
